@@ -1,0 +1,31 @@
+.centerone, .centertwo{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerone{
+  display: none;
+}
+
+.padd {
+  background-color: #C4132A;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.content{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content > * {
+  margin-bottom: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}

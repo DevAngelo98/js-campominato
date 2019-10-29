@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Minesweeper</title>
+</head>
+<body>
+  <div class="container centerone" id="display">
+    <div class="row padd">
+      <div class="col-sm-12 content">
+        <h2>Minefield</h2>
+        <h3 id="value"></h3>
+        <input type="text" name="number" id="number" placeholder="Number...">
+        <button id="check" type="button" class="btn btn-success">Play Minesweeper</button>  
+        <p id="result">...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container centertwo" id="displaynone">
+    <div class="row padd">
+      <div class="col-sm-12 content">
+          <h1>Minefield</h1>
+          <h3>Choose the difficulty</h3>
+          <p> Difficulty 0 => from 1 to 100 <br>
+              Difficulty 1 => from 1 to 80 <br>
+              Difficulty 2 => from 1 to 50 <br>
+          </p>
+        <button id="difficultyzero" type="button" class="btn btn-success">Difficulty 0</button>  
+        <button id="difficultyone" type="button" class="btn btn-success">Difficulty 1</button>  
+        <button id="difficultytwo" type="button" class="btn btn-success">Difficulty 2</button>  
+
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
